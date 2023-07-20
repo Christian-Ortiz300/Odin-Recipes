@@ -1,7 +1,15 @@
 h1{ 
     font-size: 100px;
+    color: white;
 }
 .overview{ 
     font-weight: bold;
     color: blue;
+}
+body{
+    background-color: lightpink;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
 }
