@@ -4,28 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
     <title>Enchiladas</title>
 </head>
 <body>
     <h1>Chicken Enchiladas</h1>
     <img src="../images/Enchiladas.jpg" alt="Picture of Chicken enchiladas">
     <p> This Mexican-dish is easy to make with tortillas, tender Chicken, and a delicoiusly cheesey sauce.</p>
-    <h2>Ingredients</h2>
+    <h2>Ingredients:</h2>
     <ul>
         <li> 1 tablespoon olive oil, or as needed.</li>
         <li> 4 skinless, boneless chicken breast halves.</li>
         <li> 1 onion, chooped.</li>
-        <li> 1 &frac34; cups shredded Cheddar cheese, divided.</li>
-        <li> &frac12; pint sour cream.</li>
+        <li class = "Fractions"> 1 &frac34; cups shredded Cheddar cheese, divided.</li>
+        <li class = "Fractions"> &frac12; pint sour cream.</li>
         <li> 1 tablespoon dried parsley.</li>
-        <li> &frac12; teaspoon dried oregano.</li>
-        <li> &frac12; teaspoon ground black pepper.</li>
+        <li class = "Fractions"> &frac12; teaspoon dried oregano.</li>
+        <li class = "Fractions"> &frac12; teaspoon ground black pepper.</li>
         <li> 1 (15 ounce) can tomato sauce</li>
-        <li> &frac13; cup chopped green bell pepper.</li>
+        <li class = "Fractions"> &frac13; cup chopped green bell pepper.</li>
         <li> 1 clove garlic, minced.</li>
         <li> 1 tablespoon chili powder.</li>
-        <li> &frac12; teaspoon salt (Optional).</li>
-        <li> &frac12; cup water (Optional).</li>
+        <li class = "Fractions"> &frac12; teaspoon salt (Optional).</li>
+        <li class = "Fractions"> &frac12; cup water (Optional).</li>
         <li> 8 (10 inch) flour tortillas.</li>
         <li> 1 (12 ounce) jar taco sauce.</li>
     </ul>
@@ -37,6 +38,35 @@
         <li> Fill the enchiladas and roll them up. Arrange them in a baking dish.</li>
         <li> Top with taco sauce and remaining cheese. Bake until the cheese is melted.</li>
     </ol>
-    <a href="../index.html">Back to Home page</a>
-</body>
+    <a href="../index.html">
+        <button class="Return page">Return To home page</button>
+    </a>
+    </body>
+    <style>
+        .Fractions{
+            font-weight: bolder;
+         }
+        body{
+            background-color: yellow;
+            text-align: center;
+        }
+        ul{
+            list-style-type: none;
+        }
+        ol{
+            list-style-type: decimal-leading-zero;
+            list-style-position: inside;
+            text-align: center;
+        }
+        h1{
+            text-decoration: underline;
+        }
+        p{
+            font-weight: bolder;
+        }
+        h2{
+            text-align: center;
+            text-decoration: underline;
+        }
+    </style>
 </html>
